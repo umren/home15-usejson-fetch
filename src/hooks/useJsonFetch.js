@@ -22,7 +22,7 @@ export default function useJsonFetch(url, opts = null) {
         setData(result);
         setError(null);
       } catch (e) {
-        setError(e);
+        setError("Error!!");
       } finally {
         setLoading(false);
       }
